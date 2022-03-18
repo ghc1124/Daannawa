@@ -1,6 +1,13 @@
 # Daannawa
 컴퓨터를 전혀 알지 못하는 사람들도 손쉽게 자신이 원하는 컴퓨터를 맞출 수 있게 도와주는 앱
 
+---
+‼ private repository에서 작업한 후 완성된 최종본입니다. API Key 관리를 따로 하지 않아 부득이하게 따로 repository를 생성하게 되었습니다. 😥
+---
+
+![image](https://user-images.githubusercontent.com/77712564/158940200-27275bf6-8c80-4698-9af5-2294adbcbe08.png)
+![image](https://user-images.githubusercontent.com/77712564/158940240-9714f779-3a04-41bc-ae33-58208162d16d.png)
+![image](https://user-images.githubusercontent.com/77712564/158940257-c27213d3-ec04-4ef2-b87b-a37311ffa9c2.png)
 
 
 ### 📄 상세 소개
