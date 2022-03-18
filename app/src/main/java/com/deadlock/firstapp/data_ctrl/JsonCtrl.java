@@ -1,5 +1,6 @@
 package com.deadlock.firstapp.data_ctrl;
 
+import com.deadlock.firstapp.BuildConfig;
 import com.deadlock.firstapp.part.Casepart;
 import com.deadlock.firstapp.part.Coolerpart;
 import com.deadlock.firstapp.part.Cpupart;
@@ -32,8 +33,7 @@ import okhttp3.RequestBody;
 import okhttp3.Response;
 
 public class JsonCtrl {
-    private String url = "http://13.209.75.148:5000/";
-    //private String url = "http://192.168.0.107:5000/";
+    private String url = BuildConfig.URL;
     private Selectpart temp = new Selectpart();
 
     public String select_jsonString(Selectpart selectpart, String token){

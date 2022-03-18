@@ -8,6 +8,7 @@ import android.os.AsyncTask;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.fragment.app.ListFragment;
 
+import com.deadlock.firstapp.BuildConfig;
 import com.deadlock.firstapp.part.Casepart;
 import com.deadlock.firstapp.part.Coolerpart;
 import com.deadlock.firstapp.part.Cpupart;
@@ -32,8 +33,7 @@ import okhttp3.Response;
 
 public class DBReader extends AsyncTask<String, Void, ArrayList> {
     SQLiteDatabase db;
-    private String url = "http://13.209.75.148:5000/";
-    //private String url = "http://192.168.0.107:5000/";
+    private String url = BuildConfig.URL;
 
     Object temporary = null;
 
